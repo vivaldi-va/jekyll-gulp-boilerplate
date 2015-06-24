@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>{{ page.title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+	<!-- build:css(.tmp) /stylesheets/app.css -->
+	<link rel="stylesheet" href="/assets/stylesheets/app.css"/>
+	<!-- endbuild -->
+
+</head>
+<body>
+
+{{ content }}
+
+<!-- build:js(jekyll) /scripts/scripts.js -->
+	<!-- bower:js -->
+	<!-- endbower -->
+	<!-- inject:js -->
+	<script src="/assets/scripts/app.js"></script>
+	<script src="/assets/scripts/modernizr.js"></script>
+	<!-- endinject -->
+<!-- endbuild -->
+</body>
+</html>

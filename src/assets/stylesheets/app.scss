@@ -1,0 +1,12 @@
+
+// bower:scss
+@import "../../bower_components/normalize-scss/_normalize.scss";
+// endbower
+
+// inject:scss
+@import "test";
+// endinject
+
+body {
+  background: url('cats.jpg');
+}

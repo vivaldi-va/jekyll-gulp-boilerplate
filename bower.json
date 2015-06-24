@@ -1,0 +1,19 @@
+{
+  "name": "jekyll-test",
+  "version": "0.0.0",
+  "authors": [
+    "zaccary.price <wildtangomedia@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_assets/vendor/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-scss": "~3.0.3"
+  }
+}

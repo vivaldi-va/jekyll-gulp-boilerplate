@@ -1,0 +1,24 @@
+# Paths
+source:      ./src
+destination: ./jekyll
+
+# Setup
+name: TITLE
+permalink: /blog/:year/:month/:title/
+exclude:
+ - autoprefixer.yml
+
+highlighter: rouge
+
+# Dependecies
+gems:
+  - sass
+
+# Jekyll Assets configuration
+# https://github.com/ixti/jekyll-assets
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/vendor
