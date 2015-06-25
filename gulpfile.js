@@ -15,6 +15,7 @@ var useref			= require('gulp-useref');
 var gulpif			= require('gulp-if');
 var runSequence	= require('gulp-run-sequence');
 var imagemin		= require('gulp-imagemin');
+var revReplace	= require('gulp-rev-replace');
 var path			= require('path');
 var del			= require('del');
 var vinylPaths		= require('vinyl-paths');
@@ -141,9 +142,11 @@ gulp.task('useref', function() {
 		.pipe(gulpif('*.css', minifyCss(), rev()))
 		.pipe(assets.restore())
 		.pipe(useref())
+		.pipe(revReplace())
 		.pipe(gulp.dest(paths.dist + '/'));
 
 });
+
 
 
 
