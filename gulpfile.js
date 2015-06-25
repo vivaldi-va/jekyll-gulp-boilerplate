@@ -3,7 +3,6 @@
  */
 
 var gulp			= require('gulp');
-var usemin		= require('gulp-usemin');
 var uglify			= require('gulp-uglify');
 var minifyHtml	= require('gulp-minify-html');
 var minifyCss		= require('gulp-minify-css');
@@ -21,7 +20,6 @@ var del			= require('del');
 var vinylPaths		= require('vinyl-paths');
 var wiredep		= require('wiredep').stream;
 var cp				= require('child_process');
-var through2		= require('through2');
 var pngquant		= require('imagemin-pngquant');
 
 
